@@ -1,0 +1,91 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>CompServlet</servlet-name>
+		<display-name>CompServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlet.CompServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddCompanyServlet</servlet-name>
+		<display-name>AddCompanyServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlet.AddCompanyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DesignationServlet</servlet-name>
+		<display-name>DesignationServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlet.DesignationServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CategoryServlet</servlet-name>
+		<display-name>CategoryServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlet.CategoryServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShiftServlet</servlet-name>
+		<display-name>ShiftServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlet.ShiftServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DesgServlet</servlet-name>
+		<display-name>DesgServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlet.DesgServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>CatServlet</servlet-name>
+		<display-name>CatServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlet.CatServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SftServlet</servlet-name>
+		<display-name>SftServlet</display-name>
+		<description></description>
+		<servlet-class>com.servlet.SftServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CompServlet</servlet-name>
+		<url-pattern>/CompServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddCompanyServlet</servlet-name>
+		<url-pattern>/AddCompanyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DesignationServlet</servlet-name>
+		<url-pattern>/DesignationServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CategoryServlet</servlet-name>
+		<url-pattern>/CategoryServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShiftServlet</servlet-name>
+		<url-pattern>/ShiftServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DesgServlet</servlet-name>
+		<url-pattern>/DesgServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CatServlet</servlet-name>
+		<url-pattern>/CatServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SftServlet</servlet-name>
+		<url-pattern>/SftServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>All_Comp.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
